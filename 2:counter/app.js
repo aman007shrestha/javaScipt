@@ -6,11 +6,11 @@ const btns = document.querySelectorAll(".btn");
 //console.log(btns);
 btns.forEach(function(btn) {
 	btn.addEventListener("click", function(event) {
-      //console.log(event);
+      console.log(event);
       //console.log(event.currentTarget);
       //console.log(event.currentTarget.classList); // gives class list
       const styles = event.currentTarget.classList;
-      //console.log(styles);
+      console.log(styles);
       if (styles.contains("decrease")) {
       	count --;
       }
